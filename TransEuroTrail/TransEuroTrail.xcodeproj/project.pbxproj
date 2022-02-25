@@ -7,73 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4E3296E27C8C75E0026EEFB /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3296D27C8C75E0026EEFB /* Tests_iOS.swift */; };
-		D4E3297027C8C75E0026EEFB /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3296F27C8C75E0026EEFB /* Tests_iOSLaunchTests.swift */; };
-		D4E3297A27C8C75E0026EEFB /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3297927C8C75E0026EEFB /* Tests_macOS.swift */; };
-		D4E3297C27C8C75E0026EEFB /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3297B27C8C75E0026EEFB /* Tests_macOSLaunchTests.swift */; };
-		D4E3297D27C8C75E0026EEFB /* Trans_Euro_TrailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3295527C8C75C0026EEFB /* Trans_Euro_TrailApp.swift */; };
-		D4E3297E27C8C75E0026EEFB /* Trans_Euro_TrailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3295527C8C75C0026EEFB /* Trans_Euro_TrailApp.swift */; };
-		D4E3297F27C8C75E0026EEFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3295627C8C75C0026EEFB /* ContentView.swift */; };
-		D4E3298027C8C75E0026EEFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E3295627C8C75C0026EEFB /* ContentView.swift */; };
-		D4E3298127C8C75E0026EEFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E3295727C8C75E0026EEFB /* Assets.xcassets */; };
-		D4E3298227C8C75E0026EEFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E3295727C8C75E0026EEFB /* Assets.xcassets */; };
+		D4D999DA27C8C88200E63F5B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999D927C8C88200E63F5B /* Tests_iOS.swift */; };
+		D4D999DC27C8C88200E63F5B /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999DB27C8C88200E63F5B /* Tests_iOSLaunchTests.swift */; };
+		D4D999E627C8C88200E63F5B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999E527C8C88200E63F5B /* Tests_macOS.swift */; };
+		D4D999E827C8C88200E63F5B /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999E727C8C88200E63F5B /* Tests_macOSLaunchTests.swift */; };
+		D4D999E927C8C88200E63F5B /* TransEuroTrailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999C127C8C88100E63F5B /* TransEuroTrailApp.swift */; };
+		D4D999EA27C8C88200E63F5B /* TransEuroTrailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999C127C8C88100E63F5B /* TransEuroTrailApp.swift */; };
+		D4D999EB27C8C88200E63F5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999C227C8C88100E63F5B /* ContentView.swift */; };
+		D4D999EC27C8C88200E63F5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999C227C8C88100E63F5B /* ContentView.swift */; };
+		D4D999ED27C8C88200E63F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D999C327C8C88200E63F5B /* Assets.xcassets */; };
+		D4D999EE27C8C88200E63F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D999C327C8C88200E63F5B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D4E3296A27C8C75E0026EEFB /* PBXContainerItemProxy */ = {
+		D4D999D627C8C88200E63F5B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D4E3295027C8C75C0026EEFB /* Project object */;
+			containerPortal = D4D999BC27C8C88100E63F5B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D4E3295B27C8C75E0026EEFB;
-			remoteInfo = "Trans Euro Trail (iOS)";
+			remoteGlobalIDString = D4D999C727C8C88200E63F5B;
+			remoteInfo = "TransEuroTrail (iOS)";
 		};
-		D4E3297627C8C75E0026EEFB /* PBXContainerItemProxy */ = {
+		D4D999E227C8C88200E63F5B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D4E3295027C8C75C0026EEFB /* Project object */;
+			containerPortal = D4D999BC27C8C88100E63F5B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D4E3296127C8C75E0026EEFB;
-			remoteInfo = "Trans Euro Trail (macOS)";
+			remoteGlobalIDString = D4D999CD27C8C88200E63F5B;
+			remoteInfo = "TransEuroTrail (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D4E3295527C8C75C0026EEFB /* Trans_Euro_TrailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trans_Euro_TrailApp.swift; sourceTree = "<group>"; };
-		D4E3295627C8C75C0026EEFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D4E3295727C8C75E0026EEFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D4E3295C27C8C75E0026EEFB /* Trans Euro Trail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trans Euro Trail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4E3296227C8C75E0026EEFB /* Trans Euro Trail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trans Euro Trail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4E3296427C8C75E0026EEFB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		D4E3296927C8C75E0026EEFB /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4E3296D27C8C75E0026EEFB /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		D4E3296F27C8C75E0026EEFB /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		D4E3297527C8C75E0026EEFB /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4E3297927C8C75E0026EEFB /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		D4E3297B27C8C75E0026EEFB /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		D4D999C127C8C88100E63F5B /* TransEuroTrailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransEuroTrailApp.swift; sourceTree = "<group>"; };
+		D4D999C227C8C88100E63F5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4D999C327C8C88200E63F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4D999C827C8C88200E63F5B /* TransEuroTrail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransEuroTrail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D999CE27C8C88200E63F5B /* TransEuroTrail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransEuroTrail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D999D027C8C88200E63F5B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D4D999D527C8C88200E63F5B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D999D927C8C88200E63F5B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		D4D999DB27C8C88200E63F5B /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		D4D999E127C8C88200E63F5B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D999E527C8C88200E63F5B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		D4D999E727C8C88200E63F5B /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D4E3295927C8C75E0026EEFB /* Frameworks */ = {
+		D4D999C527C8C88200E63F5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4E3295F27C8C75E0026EEFB /* Frameworks */ = {
+		D4D999CB27C8C88200E63F5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4E3296627C8C75E0026EEFB /* Frameworks */ = {
+		D4D999D227C8C88200E63F5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4E3297227C8C75E0026EEFB /* Frameworks */ = {
+		D4D999DE27C8C88200E63F5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,60 +83,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D4E3294F27C8C75C0026EEFB = {
+		D4D999BB27C8C88100E63F5B = {
 			isa = PBXGroup;
 			children = (
-				D4E3295427C8C75C0026EEFB /* Shared */,
-				D4E3296327C8C75E0026EEFB /* macOS */,
-				D4E3296C27C8C75E0026EEFB /* Tests iOS */,
-				D4E3297827C8C75E0026EEFB /* Tests macOS */,
-				D4E3295D27C8C75E0026EEFB /* Products */,
+				D4D999C027C8C88100E63F5B /* Shared */,
+				D4D999CF27C8C88200E63F5B /* macOS */,
+				D4D999D827C8C88200E63F5B /* Tests iOS */,
+				D4D999E427C8C88200E63F5B /* Tests macOS */,
+				D4D999C927C8C88200E63F5B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D4E3295427C8C75C0026EEFB /* Shared */ = {
+		D4D999C027C8C88100E63F5B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D4E3295527C8C75C0026EEFB /* Trans_Euro_TrailApp.swift */,
-				D4E3295627C8C75C0026EEFB /* ContentView.swift */,
-				D4E3295727C8C75E0026EEFB /* Assets.xcassets */,
+				D4D999C127C8C88100E63F5B /* TransEuroTrailApp.swift */,
+				D4D999C227C8C88100E63F5B /* ContentView.swift */,
+				D4D999C327C8C88200E63F5B /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		D4E3295D27C8C75E0026EEFB /* Products */ = {
+		D4D999C927C8C88200E63F5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4E3295C27C8C75E0026EEFB /* Trans Euro Trail.app */,
-				D4E3296227C8C75E0026EEFB /* Trans Euro Trail.app */,
-				D4E3296927C8C75E0026EEFB /* Tests iOS.xctest */,
-				D4E3297527C8C75E0026EEFB /* Tests macOS.xctest */,
+				D4D999C827C8C88200E63F5B /* TransEuroTrail.app */,
+				D4D999CE27C8C88200E63F5B /* TransEuroTrail.app */,
+				D4D999D527C8C88200E63F5B /* Tests iOS.xctest */,
+				D4D999E127C8C88200E63F5B /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4E3296327C8C75E0026EEFB /* macOS */ = {
+		D4D999CF27C8C88200E63F5B /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				D4E3296427C8C75E0026EEFB /* macOS.entitlements */,
+				D4D999D027C8C88200E63F5B /* macOS.entitlements */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		D4E3296C27C8C75E0026EEFB /* Tests iOS */ = {
+		D4D999D827C8C88200E63F5B /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D4E3296D27C8C75E0026EEFB /* Tests_iOS.swift */,
-				D4E3296F27C8C75E0026EEFB /* Tests_iOSLaunchTests.swift */,
+				D4D999D927C8C88200E63F5B /* Tests_iOS.swift */,
+				D4D999DB27C8C88200E63F5B /* Tests_iOSLaunchTests.swift */,
 			);
 			path = "Tests iOS";
 			sourceTree = "<group>";
 		};
-		D4E3297827C8C75E0026EEFB /* Tests macOS */ = {
+		D4D999E427C8C88200E63F5B /* Tests macOS */ = {
 			isa = PBXGroup;
 			children = (
-				D4E3297927C8C75E0026EEFB /* Tests_macOS.swift */,
-				D4E3297B27C8C75E0026EEFB /* Tests_macOSLaunchTests.swift */,
+				D4D999E527C8C88200E63F5B /* Tests_macOS.swift */,
+				D4D999E727C8C88200E63F5B /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
 			sourceTree = "<group>";
@@ -144,103 +144,103 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4E3295B27C8C75E0026EEFB /* Trans Euro Trail (iOS) */ = {
+		D4D999C727C8C88200E63F5B /* TransEuroTrail (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4E3298527C8C75E0026EEFB /* Build configuration list for PBXNativeTarget "Trans Euro Trail (iOS)" */;
+			buildConfigurationList = D4D999F127C8C88200E63F5B /* Build configuration list for PBXNativeTarget "TransEuroTrail (iOS)" */;
 			buildPhases = (
-				D4E3295827C8C75E0026EEFB /* Sources */,
-				D4E3295927C8C75E0026EEFB /* Frameworks */,
-				D4E3295A27C8C75E0026EEFB /* Resources */,
+				D4D999C427C8C88200E63F5B /* Sources */,
+				D4D999C527C8C88200E63F5B /* Frameworks */,
+				D4D999C627C8C88200E63F5B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Trans Euro Trail (iOS)";
-			productName = "Trans Euro Trail (iOS)";
-			productReference = D4E3295C27C8C75E0026EEFB /* Trans Euro Trail.app */;
+			name = "TransEuroTrail (iOS)";
+			productName = "TransEuroTrail (iOS)";
+			productReference = D4D999C827C8C88200E63F5B /* TransEuroTrail.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D4E3296127C8C75E0026EEFB /* Trans Euro Trail (macOS) */ = {
+		D4D999CD27C8C88200E63F5B /* TransEuroTrail (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4E3298827C8C75E0026EEFB /* Build configuration list for PBXNativeTarget "Trans Euro Trail (macOS)" */;
+			buildConfigurationList = D4D999F427C8C88200E63F5B /* Build configuration list for PBXNativeTarget "TransEuroTrail (macOS)" */;
 			buildPhases = (
-				D4E3295E27C8C75E0026EEFB /* Sources */,
-				D4E3295F27C8C75E0026EEFB /* Frameworks */,
-				D4E3296027C8C75E0026EEFB /* Resources */,
+				D4D999CA27C8C88200E63F5B /* Sources */,
+				D4D999CB27C8C88200E63F5B /* Frameworks */,
+				D4D999CC27C8C88200E63F5B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Trans Euro Trail (macOS)";
-			productName = "Trans Euro Trail (macOS)";
-			productReference = D4E3296227C8C75E0026EEFB /* Trans Euro Trail.app */;
+			name = "TransEuroTrail (macOS)";
+			productName = "TransEuroTrail (macOS)";
+			productReference = D4D999CE27C8C88200E63F5B /* TransEuroTrail.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D4E3296827C8C75E0026EEFB /* Tests iOS */ = {
+		D4D999D427C8C88200E63F5B /* Tests iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4E3298B27C8C75E0026EEFB /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildConfigurationList = D4D999F727C8C88200E63F5B /* Build configuration list for PBXNativeTarget "Tests iOS" */;
 			buildPhases = (
-				D4E3296527C8C75E0026EEFB /* Sources */,
-				D4E3296627C8C75E0026EEFB /* Frameworks */,
-				D4E3296727C8C75E0026EEFB /* Resources */,
+				D4D999D127C8C88200E63F5B /* Sources */,
+				D4D999D227C8C88200E63F5B /* Frameworks */,
+				D4D999D327C8C88200E63F5B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D4E3296B27C8C75E0026EEFB /* PBXTargetDependency */,
+				D4D999D727C8C88200E63F5B /* PBXTargetDependency */,
 			);
 			name = "Tests iOS";
 			productName = "Tests iOS";
-			productReference = D4E3296927C8C75E0026EEFB /* Tests iOS.xctest */;
+			productReference = D4D999D527C8C88200E63F5B /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		D4E3297427C8C75E0026EEFB /* Tests macOS */ = {
+		D4D999E027C8C88200E63F5B /* Tests macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4E3298E27C8C75E0026EEFB /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildConfigurationList = D4D999FA27C8C88200E63F5B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
 			buildPhases = (
-				D4E3297127C8C75E0026EEFB /* Sources */,
-				D4E3297227C8C75E0026EEFB /* Frameworks */,
-				D4E3297327C8C75E0026EEFB /* Resources */,
+				D4D999DD27C8C88200E63F5B /* Sources */,
+				D4D999DE27C8C88200E63F5B /* Frameworks */,
+				D4D999DF27C8C88200E63F5B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D4E3297727C8C75E0026EEFB /* PBXTargetDependency */,
+				D4D999E327C8C88200E63F5B /* PBXTargetDependency */,
 			);
 			name = "Tests macOS";
 			productName = "Tests macOS";
-			productReference = D4E3297527C8C75E0026EEFB /* Tests macOS.xctest */;
+			productReference = D4D999E127C8C88200E63F5B /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D4E3295027C8C75C0026EEFB /* Project object */ = {
+		D4D999BC27C8C88100E63F5B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					D4E3295B27C8C75E0026EEFB = {
+					D4D999C727C8C88200E63F5B = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					D4E3296127C8C75E0026EEFB = {
+					D4D999CD27C8C88200E63F5B = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					D4E3296827C8C75E0026EEFB = {
+					D4D999D427C8C88200E63F5B = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = D4E3295B27C8C75E0026EEFB;
+						TestTargetID = D4D999C727C8C88200E63F5B;
 					};
-					D4E3297427C8C75E0026EEFB = {
+					D4D999E027C8C88200E63F5B = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = D4E3296127C8C75E0026EEFB;
+						TestTargetID = D4D999CD27C8C88200E63F5B;
 					};
 				};
 			};
-			buildConfigurationList = D4E3295327C8C75C0026EEFB /* Build configuration list for PBXProject "Trans Euro Trail" */;
+			buildConfigurationList = D4D999BF27C8C88100E63F5B /* Build configuration list for PBXProject "TransEuroTrail" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -248,44 +248,44 @@
 				en,
 				Base,
 			);
-			mainGroup = D4E3294F27C8C75C0026EEFB;
-			productRefGroup = D4E3295D27C8C75E0026EEFB /* Products */;
+			mainGroup = D4D999BB27C8C88100E63F5B;
+			productRefGroup = D4D999C927C8C88200E63F5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4E3295B27C8C75E0026EEFB /* Trans Euro Trail (iOS) */,
-				D4E3296127C8C75E0026EEFB /* Trans Euro Trail (macOS) */,
-				D4E3296827C8C75E0026EEFB /* Tests iOS */,
-				D4E3297427C8C75E0026EEFB /* Tests macOS */,
+				D4D999C727C8C88200E63F5B /* TransEuroTrail (iOS) */,
+				D4D999CD27C8C88200E63F5B /* TransEuroTrail (macOS) */,
+				D4D999D427C8C88200E63F5B /* Tests iOS */,
+				D4D999E027C8C88200E63F5B /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D4E3295A27C8C75E0026EEFB /* Resources */ = {
+		D4D999C627C8C88200E63F5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4E3298127C8C75E0026EEFB /* Assets.xcassets in Resources */,
+				D4D999ED27C8C88200E63F5B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4E3296027C8C75E0026EEFB /* Resources */ = {
+		D4D999CC27C8C88200E63F5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4E3298227C8C75E0026EEFB /* Assets.xcassets in Resources */,
+				D4D999EE27C8C88200E63F5B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4E3296727C8C75E0026EEFB /* Resources */ = {
+		D4D999D327C8C88200E63F5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4E3297327C8C75E0026EEFB /* Resources */ = {
+		D4D999DF27C8C88200E63F5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,59 +295,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D4E3295827C8C75E0026EEFB /* Sources */ = {
+		D4D999C427C8C88200E63F5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4E3297F27C8C75E0026EEFB /* ContentView.swift in Sources */,
-				D4E3297D27C8C75E0026EEFB /* Trans_Euro_TrailApp.swift in Sources */,
+				D4D999EB27C8C88200E63F5B /* ContentView.swift in Sources */,
+				D4D999E927C8C88200E63F5B /* TransEuroTrailApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4E3295E27C8C75E0026EEFB /* Sources */ = {
+		D4D999CA27C8C88200E63F5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4E3298027C8C75E0026EEFB /* ContentView.swift in Sources */,
-				D4E3297E27C8C75E0026EEFB /* Trans_Euro_TrailApp.swift in Sources */,
+				D4D999EC27C8C88200E63F5B /* ContentView.swift in Sources */,
+				D4D999EA27C8C88200E63F5B /* TransEuroTrailApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4E3296527C8C75E0026EEFB /* Sources */ = {
+		D4D999D127C8C88200E63F5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4E3297027C8C75E0026EEFB /* Tests_iOSLaunchTests.swift in Sources */,
-				D4E3296E27C8C75E0026EEFB /* Tests_iOS.swift in Sources */,
+				D4D999DC27C8C88200E63F5B /* Tests_iOSLaunchTests.swift in Sources */,
+				D4D999DA27C8C88200E63F5B /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4E3297127C8C75E0026EEFB /* Sources */ = {
+		D4D999DD27C8C88200E63F5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4E3297C27C8C75E0026EEFB /* Tests_macOSLaunchTests.swift in Sources */,
-				D4E3297A27C8C75E0026EEFB /* Tests_macOS.swift in Sources */,
+				D4D999E827C8C88200E63F5B /* Tests_macOSLaunchTests.swift in Sources */,
+				D4D999E627C8C88200E63F5B /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D4E3296B27C8C75E0026EEFB /* PBXTargetDependency */ = {
+		D4D999D727C8C88200E63F5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D4E3295B27C8C75E0026EEFB /* Trans Euro Trail (iOS) */;
-			targetProxy = D4E3296A27C8C75E0026EEFB /* PBXContainerItemProxy */;
+			target = D4D999C727C8C88200E63F5B /* TransEuroTrail (iOS) */;
+			targetProxy = D4D999D627C8C88200E63F5B /* PBXContainerItemProxy */;
 		};
-		D4E3297727C8C75E0026EEFB /* PBXTargetDependency */ = {
+		D4D999E327C8C88200E63F5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D4E3296127C8C75E0026EEFB /* Trans Euro Trail (macOS) */;
-			targetProxy = D4E3297627C8C75E0026EEFB /* PBXContainerItemProxy */;
+			target = D4D999CD27C8C88200E63F5B /* TransEuroTrail (macOS) */;
+			targetProxy = D4D999E227C8C88200E63F5B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D4E3298327C8C75E0026EEFB /* Debug */ = {
+		D4D999EF27C8C88200E63F5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -406,7 +406,7 @@
 			};
 			name = Debug;
 		};
-		D4E3298427C8C75E0026EEFB /* Release */ = {
+		D4D999F027C8C88200E63F5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -458,7 +458,7 @@
 			};
 			name = Release;
 		};
-		D4E3298627C8C75E0026EEFB /* Debug */ = {
+		D4D999F227C8C88200E63F5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -479,8 +479,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.transeurotrail.Trans-Euro-Trail";
-				PRODUCT_NAME = "Trans Euro Trail";
+				PRODUCT_BUNDLE_IDENTIFIER = org.transeurotrail.TransEuroTrail;
+				PRODUCT_NAME = TransEuroTrail;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,7 +488,7 @@
 			};
 			name = Debug;
 		};
-		D4E3298727C8C75E0026EEFB /* Release */ = {
+		D4D999F327C8C88200E63F5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -509,8 +509,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.transeurotrail.Trans-Euro-Trail";
-				PRODUCT_NAME = "Trans Euro Trail";
+				PRODUCT_BUNDLE_IDENTIFIER = org.transeurotrail.TransEuroTrail;
+				PRODUCT_NAME = TransEuroTrail;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -519,7 +519,7 @@
 			};
 			name = Release;
 		};
-		D4E3298927C8C75E0026EEFB /* Debug */ = {
+		D4D999F527C8C88200E63F5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -539,15 +539,15 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.transeurotrail.Trans-Euro-Trail";
-				PRODUCT_NAME = "Trans Euro Trail";
+				PRODUCT_BUNDLE_IDENTIFIER = org.transeurotrail.TransEuroTrail;
+				PRODUCT_NAME = TransEuroTrail;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		D4E3298A27C8C75E0026EEFB /* Release */ = {
+		D4D999F627C8C88200E63F5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -567,15 +567,15 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.transeurotrail.Trans-Euro-Trail";
-				PRODUCT_NAME = "Trans Euro Trail";
+				PRODUCT_BUNDLE_IDENTIFIER = org.transeurotrail.TransEuroTrail;
+				PRODUCT_NAME = TransEuroTrail;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		D4E3298C27C8C75E0026EEFB /* Debug */ = {
+		D4D999F827C8C88200E63F5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -591,11 +591,11 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Trans Euro Trail (iOS)";
+				TEST_TARGET_NAME = "TransEuroTrail (iOS)";
 			};
 			name = Debug;
 		};
-		D4E3298D27C8C75E0026EEFB /* Release */ = {
+		D4D999F927C8C88200E63F5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -611,12 +611,12 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Trans Euro Trail (iOS)";
+				TEST_TARGET_NAME = "TransEuroTrail (iOS)";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		D4E3298F27C8C75E0026EEFB /* Debug */ = {
+		D4D999FB27C8C88200E63F5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -631,11 +631,11 @@
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Trans Euro Trail (macOS)";
+				TEST_TARGET_NAME = "TransEuroTrail (macOS)";
 			};
 			name = Debug;
 		};
-		D4E3299027C8C75E0026EEFB /* Release */ = {
+		D4D999FC27C8C88200E63F5B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -650,59 +650,59 @@
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Trans Euro Trail (macOS)";
+				TEST_TARGET_NAME = "TransEuroTrail (macOS)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4E3295327C8C75C0026EEFB /* Build configuration list for PBXProject "Trans Euro Trail" */ = {
+		D4D999BF27C8C88100E63F5B /* Build configuration list for PBXProject "TransEuroTrail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4E3298327C8C75E0026EEFB /* Debug */,
-				D4E3298427C8C75E0026EEFB /* Release */,
+				D4D999EF27C8C88200E63F5B /* Debug */,
+				D4D999F027C8C88200E63F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4E3298527C8C75E0026EEFB /* Build configuration list for PBXNativeTarget "Trans Euro Trail (iOS)" */ = {
+		D4D999F127C8C88200E63F5B /* Build configuration list for PBXNativeTarget "TransEuroTrail (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4E3298627C8C75E0026EEFB /* Debug */,
-				D4E3298727C8C75E0026EEFB /* Release */,
+				D4D999F227C8C88200E63F5B /* Debug */,
+				D4D999F327C8C88200E63F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4E3298827C8C75E0026EEFB /* Build configuration list for PBXNativeTarget "Trans Euro Trail (macOS)" */ = {
+		D4D999F427C8C88200E63F5B /* Build configuration list for PBXNativeTarget "TransEuroTrail (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4E3298927C8C75E0026EEFB /* Debug */,
-				D4E3298A27C8C75E0026EEFB /* Release */,
+				D4D999F527C8C88200E63F5B /* Debug */,
+				D4D999F627C8C88200E63F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4E3298B27C8C75E0026EEFB /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+		D4D999F727C8C88200E63F5B /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4E3298C27C8C75E0026EEFB /* Debug */,
-				D4E3298D27C8C75E0026EEFB /* Release */,
+				D4D999F827C8C88200E63F5B /* Debug */,
+				D4D999F927C8C88200E63F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4E3298E27C8C75E0026EEFB /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+		D4D999FA27C8C88200E63F5B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4E3298F27C8C75E0026EEFB /* Debug */,
-				D4E3299027C8C75E0026EEFB /* Release */,
+				D4D999FB27C8C88200E63F5B /* Debug */,
+				D4D999FC27C8C88200E63F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D4E3295027C8C75C0026EEFB /* Project object */;
+	rootObject = D4D999BC27C8C88100E63F5B /* Project object */;
 }
