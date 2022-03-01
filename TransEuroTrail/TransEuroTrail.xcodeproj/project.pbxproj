@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D410C13127CE9B5F006AEB35 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C13027CE9B5F006AEB35 /* MainView.swift */; };
+		D410C13227CE9B5F006AEB35 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C13027CE9B5F006AEB35 /* MainView.swift */; };
+		D410C13427CE9D6A006AEB35 /* ProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C13327CE9D6A006AEB35 /* ProblemView.swift */; };
+		D410C13527CE9D6A006AEB35 /* ProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C13327CE9D6A006AEB35 /* ProblemView.swift */; };
+		D410C13727CE9E56006AEB35 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C13627CE9E56006AEB35 /* FeedView.swift */; };
+		D410C13827CE9E56006AEB35 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C13627CE9E56006AEB35 /* FeedView.swift */; };
+		D410C13A27CE9F19006AEB35 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C13927CE9F19006AEB35 /* CommunityView.swift */; };
+		D410C13B27CE9F19006AEB35 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C13927CE9F19006AEB35 /* CommunityView.swift */; };
 		D4D999DA27C8C88200E63F5B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999D927C8C88200E63F5B /* Tests_iOS.swift */; };
 		D4D999DC27C8C88200E63F5B /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999DB27C8C88200E63F5B /* Tests_iOSLaunchTests.swift */; };
 		D4D999E627C8C88200E63F5B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999E527C8C88200E63F5B /* Tests_macOS.swift */; };
 		D4D999E827C8C88200E63F5B /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999E727C8C88200E63F5B /* Tests_macOSLaunchTests.swift */; };
 		D4D999E927C8C88200E63F5B /* TransEuroTrailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999C127C8C88100E63F5B /* TransEuroTrailApp.swift */; };
 		D4D999EA27C8C88200E63F5B /* TransEuroTrailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999C127C8C88100E63F5B /* TransEuroTrailApp.swift */; };
-		D4D999EB27C8C88200E63F5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999C227C8C88100E63F5B /* ContentView.swift */; };
-		D4D999EC27C8C88200E63F5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999C227C8C88100E63F5B /* ContentView.swift */; };
+		D4D999EB27C8C88200E63F5B /* TracksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999C227C8C88100E63F5B /* TracksView.swift */; };
+		D4D999EC27C8C88200E63F5B /* TracksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999C227C8C88100E63F5B /* TracksView.swift */; };
 		D4D999ED27C8C88200E63F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D999C327C8C88200E63F5B /* Assets.xcassets */; };
 		D4D999EE27C8C88200E63F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D999C327C8C88200E63F5B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -37,8 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D410C13027CE9B5F006AEB35 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D410C13327CE9D6A006AEB35 /* ProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemView.swift; sourceTree = "<group>"; };
+		D410C13627CE9E56006AEB35 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		D410C13927CE9F19006AEB35 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
 		D4D999C127C8C88100E63F5B /* TransEuroTrailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransEuroTrailApp.swift; sourceTree = "<group>"; };
-		D4D999C227C8C88100E63F5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4D999C227C8C88100E63F5B /* TracksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksView.swift; sourceTree = "<group>"; };
 		D4D999C327C8C88200E63F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4D999C827C8C88200E63F5B /* TransEuroTrail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransEuroTrail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D999CE27C8C88200E63F5B /* TransEuroTrail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransEuroTrail.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				D4D999C127C8C88100E63F5B /* TransEuroTrailApp.swift */,
-				D4D999C227C8C88100E63F5B /* ContentView.swift */,
+				D410C13027CE9B5F006AEB35 /* MainView.swift */,
+				D410C13627CE9E56006AEB35 /* FeedView.swift */,
+				D410C13327CE9D6A006AEB35 /* ProblemView.swift */,
+				D4D999C227C8C88100E63F5B /* TracksView.swift */,
+				D410C13927CE9F19006AEB35 /* CommunityView.swift */,
 				D4D999C327C8C88200E63F5B /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,7 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4D999EB27C8C88200E63F5B /* ContentView.swift in Sources */,
+				D410C13727CE9E56006AEB35 /* FeedView.swift in Sources */,
+				D410C13427CE9D6A006AEB35 /* ProblemView.swift in Sources */,
+				D410C13A27CE9F19006AEB35 /* CommunityView.swift in Sources */,
+				D4D999EB27C8C88200E63F5B /* TracksView.swift in Sources */,
+				D410C13127CE9B5F006AEB35 /* MainView.swift in Sources */,
 				D4D999E927C8C88200E63F5B /* TransEuroTrailApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +328,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4D999EC27C8C88200E63F5B /* ContentView.swift in Sources */,
+				D410C13827CE9E56006AEB35 /* FeedView.swift in Sources */,
+				D410C13527CE9D6A006AEB35 /* ProblemView.swift in Sources */,
+				D410C13B27CE9F19006AEB35 /* CommunityView.swift in Sources */,
+				D4D999EC27C8C88200E63F5B /* TracksView.swift in Sources */,
+				D410C13227CE9B5F006AEB35 /* MainView.swift in Sources */,
 				D4D999EA27C8C88200E63F5B /* TransEuroTrailApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
