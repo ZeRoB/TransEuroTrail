@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct TracksView: View {
+    let tracks = Bundle.main.decode([Track].self, from: "tracks.json")
+    
     var body: some View {
-        Text("Maps")
+        NavigationView {
+            List {
+                ForEach(tracks) { track in
+                    NavigationLink(destination: TrackDetail(track: track)) {
+                        TrackRow(track: track)
+                    }
+                }
+            }
+            .navigationTitle("Tracks")
+        }
+        .navigationViewStyle(.stack)
     }
 }
 
