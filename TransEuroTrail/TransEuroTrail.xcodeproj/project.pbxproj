@@ -27,6 +27,7 @@
 		D410C14A27D1750A006AEB35 /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C14827D1750A006AEB35 /* TrackDetailView.swift */; };
 		D410C14C27D1F970006AEB35 /* Germany.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D410C14B27D1F970006AEB35 /* Germany.gpx */; };
 		D410C14D27D1F970006AEB35 /* Germany.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D410C14B27D1F970006AEB35 /* Germany.gpx */; };
+		D410C15027DF3535006AEB35 /* CoreGPX in Frameworks */ = {isa = PBXBuildFile; productRef = D410C14F27DF3535006AEB35 /* CoreGPX */; };
 		D4D999DA27C8C88200E63F5B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999D927C8C88200E63F5B /* Tests_iOS.swift */; };
 		D4D999DC27C8C88200E63F5B /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999DB27C8C88200E63F5B /* Tests_iOSLaunchTests.swift */; };
 		D4D999E627C8C88200E63F5B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999E527C8C88200E63F5B /* Tests_macOS.swift */; };
@@ -86,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D410C15027DF3535006AEB35 /* CoreGPX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +199,9 @@
 			dependencies = (
 			);
 			name = "TransEuroTrail (iOS)";
+			packageProductDependencies = (
+				D410C14F27DF3535006AEB35 /* CoreGPX */,
+			);
 			productName = "TransEuroTrail (iOS)";
 			productReference = D4D999C827C8C88200E63F5B /* TransEuroTrail.app */;
 			productType = "com.apple.product-type.application";
@@ -289,6 +294,9 @@
 				Base,
 			);
 			mainGroup = D4D999BB27C8C88100E63F5B;
+			packageReferences = (
+				D410C14E27DF3535006AEB35 /* XCRemoteSwiftPackageReference "CoreGPX" */,
+			);
 			productRefGroup = D4D999C927C8C88200E63F5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -763,6 +771,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D410C14E27DF3535006AEB35 /* XCRemoteSwiftPackageReference "CoreGPX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vincentneo/CoreGPX";
+			requirement = {
+				kind = exactVersion;
+				version = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D410C14F27DF3535006AEB35 /* CoreGPX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D410C14E27DF3535006AEB35 /* XCRemoteSwiftPackageReference "CoreGPX" */;
+			productName = CoreGPX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D4D999BC27C8C88100E63F5B /* Project object */;
 }
