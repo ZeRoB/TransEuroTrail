@@ -23,8 +23,8 @@
 		D410C14427CEA474006AEB35 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C14227CEA474006AEB35 /* Track.swift */; };
 		D410C14627D16F59006AEB35 /* TrackRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C14527D16F59006AEB35 /* TrackRow.swift */; };
 		D410C14727D16F59006AEB35 /* TrackRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C14527D16F59006AEB35 /* TrackRow.swift */; };
-		D410C14927D1750A006AEB35 /* TrackDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C14827D1750A006AEB35 /* TrackDetail.swift */; };
-		D410C14A27D1750A006AEB35 /* TrackDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C14827D1750A006AEB35 /* TrackDetail.swift */; };
+		D410C14927D1750A006AEB35 /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C14827D1750A006AEB35 /* TrackDetailView.swift */; };
+		D410C14A27D1750A006AEB35 /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410C14827D1750A006AEB35 /* TrackDetailView.swift */; };
 		D410C14C27D1F970006AEB35 /* Germany.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D410C14B27D1F970006AEB35 /* Germany.gpx */; };
 		D410C14D27D1F970006AEB35 /* Germany.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D410C14B27D1F970006AEB35 /* Germany.gpx */; };
 		D4D999DA27C8C88200E63F5B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D999D927C8C88200E63F5B /* Tests_iOS.swift */; };
@@ -65,7 +65,7 @@
 		D410C13F27CEA23D006AEB35 /* tracks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tracks.json; sourceTree = "<group>"; };
 		D410C14227CEA474006AEB35 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		D410C14527D16F59006AEB35 /* TrackRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackRow.swift; sourceTree = "<group>"; };
-		D410C14827D1750A006AEB35 /* TrackDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetail.swift; sourceTree = "<group>"; };
+		D410C14827D1750A006AEB35 /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
 		D410C14B27D1F970006AEB35 /* Germany.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Germany.gpx; sourceTree = "<group>"; };
 		D4D999C127C8C88100E63F5B /* TransEuroTrailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransEuroTrailApp.swift; sourceTree = "<group>"; };
 		D4D999C227C8C88100E63F5B /* TracksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksView.swift; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 				D410C13627CE9E56006AEB35 /* FeedView.swift */,
 				D410C13327CE9D6A006AEB35 /* ProblemView.swift */,
 				D4D999C227C8C88100E63F5B /* TracksView.swift */,
-				D410C14827D1750A006AEB35 /* TrackDetail.swift */,
+				D410C14827D1750A006AEB35 /* TrackDetailView.swift */,
 				D410C14527D16F59006AEB35 /* TrackRow.swift */,
 				D410C13927CE9F19006AEB35 /* CommunityView.swift */,
 				D4D999C327C8C88200E63F5B /* Assets.xcassets */,
@@ -349,7 +349,7 @@
 				D410C13427CE9D6A006AEB35 /* ProblemView.swift in Sources */,
 				D410C14327CEA474006AEB35 /* Track.swift in Sources */,
 				D410C13A27CE9F19006AEB35 /* CommunityView.swift in Sources */,
-				D410C14927D1750A006AEB35 /* TrackDetail.swift in Sources */,
+				D410C14927D1750A006AEB35 /* TrackDetailView.swift in Sources */,
 				D4D999EB27C8C88200E63F5B /* TracksView.swift in Sources */,
 				D410C13127CE9B5F006AEB35 /* MainView.swift in Sources */,
 				D4D999E927C8C88200E63F5B /* TransEuroTrailApp.swift in Sources */,
@@ -366,7 +366,7 @@
 				D410C13527CE9D6A006AEB35 /* ProblemView.swift in Sources */,
 				D410C14427CEA474006AEB35 /* Track.swift in Sources */,
 				D410C13B27CE9F19006AEB35 /* CommunityView.swift in Sources */,
-				D410C14A27D1750A006AEB35 /* TrackDetail.swift in Sources */,
+				D410C14A27D1750A006AEB35 /* TrackDetailView.swift in Sources */,
 				D4D999EC27C8C88200E63F5B /* TracksView.swift in Sources */,
 				D410C13227CE9B5F006AEB35 /* MainView.swift in Sources */,
 				D4D999EA27C8C88200E63F5B /* TransEuroTrailApp.swift in Sources */,
