@@ -14,7 +14,7 @@ struct TracksView: View {
         NavigationView {
             List {
                 ForEach(tracks) { track in
-                    NavigationLink(destination: TrackDetail(track: track)) {
+                    NavigationLink(destination: TrackDetailView(track: track)) {
                         TrackRow(track: track)
                     }
                 }
