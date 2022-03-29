@@ -21,6 +21,8 @@ struct TrackDetailView: View {
     
     var body: some View {
         VStack {
+            MapView(mapRegion: $viewModel.mapRegion, tracks: $viewModel.tracks)
+            Text(track.flag)
         }
         .navigationTitle(track.name)
         .navigationBarTitleDisplayMode(.inline)
