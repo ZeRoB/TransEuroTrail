@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import MapKit
+import CoreGPX
 
 extension Bundle {
     func loadData(from file: String) -> Data {
@@ -29,5 +31,36 @@ extension Bundle {
         }
 
         return loaded
+    }
+}
+
+extension MKCoordinateRegion {
+    init(waypoints: [CLLocationCoordinate2D]) {
+        var minLat: CLLocationDegrees = 90.0
+        var maxLat: CLLocationDegrees = -90.0
+        var minLon: CLLocationDegrees = 180.0
+        var maxLon: CLLocationDegrees = -180.0
+        
+        for waypoint in waypoints {
+            let lat = Double(waypoint.latitude)
+            let long = Double(waypoint.longitude)
+            
+            if lat < minLat {
+                minLat = lat
+            }
+            if long < minLon {
+                minLon = long
+            }
+            if lat > maxLat {
+                maxLat = lat
+            }
+            if long > maxLon {
+                maxLon = long
+            }
+        }
+        
+        let span = MKCoordinateSpan(latitudeDelta: (maxLat - minLat) * 1.5, longitudeDelta: (maxLon - minLon) * 1.5)
+        let center = CLLocationCoordinate2DMake(maxLat - span.latitudeDelta / 3, maxLon - span.longitudeDelta / 3)
+        self.init(center: center, span: span)
     }
 }
