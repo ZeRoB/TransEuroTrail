@@ -1,0 +1,212 @@
+[
+    {
+        "id": "93C521CC-9990-11EC-B909-0242AC120002",
+        "country_code": "AL",
+        "name": "Albania",
+        "flag": "🇦🇱",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/AL.gpx"
+    },
+    {
+        "id": "231842FC-C5E2-4907-A5D9-B65EE19BC200",
+        "country_code": "AND",
+        "name": "Andorra",
+        "flag": "🇦🇩",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/AND.gpx"
+    },
+    {
+        "id": "59E1A4E5-058C-4BFF-9DCB-272AD2A12345",
+        "country_code": "B",
+        "name": "Belgium",
+        "flag": "🇧🇪",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/B.gpx"
+    },
+    {
+        "id": "154583EB-6317-4F58-A638-FF2A9FC021A9",
+        "country_code": "BG",
+        "name": "Bulgaria",
+        "flag": "🇧🇬",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/BG.gpx"
+    },
+    {
+        "id": "8E8B87B0-0EE5-428B-A65F-4D9109716864",
+        "country_code": "BIH",
+        "name": "Bosnia and Herzegovina",
+        "flag": "🇧🇦",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/BIH.gpx"
+    },
+    {
+        "id": "E82F24FA-A76C-4452-B6BB-1BD4E9F4079D",
+        "country_code": "CH",
+        "name": "Switzerland",
+        "flag": "🇨🇭",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/CH.gpx"
+    },
+    {
+        "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+        "country_code": "D",
+        "name": "Germany",
+        "flag": "🇩🇪",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/D.gpx"
+    },
+    {
+        "id": "7128DF68-FB99-4CAF-A5DA-887E47190141",
+        "country_code": "DK",
+        "name": "Denmark",
+        "flag": "🇩🇰",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/DK.gpx"
+    },
+    {
+        "id": "E615F8D8-FD65-4F98-88D1-0721671AD4BD",
+        "country_code": "E",
+        "name": "Spain",
+        "flag": "🇪🇸",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/E.gpx"
+    },
+    {
+        "id": "0EE992FE-922E-4FC2-82FF-CA17A69D25D1",
+        "country_code": "EST",
+        "name": "Estonia",
+        "flag": "🇪🇪",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/EST.gpx"
+    },
+    {
+        "id": "2604D804-CD74-4DB1-861E-148930703178",
+        "country_code": "F",
+        "name": "France",
+        "flag": "🇫🇷",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/F.gpx"
+    },
+    {
+        "id": "95ECE596-5596-4CA2-AE6E-24E1AB039A01",
+        "country_code": "FIN",
+        "name": "Finnland",
+        "flag": "🇫🇮",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/FIN.gpx"
+    },
+    {
+        "id": "430F5B07-D342-424C-B397-5F8EFCDE77F4",
+        "country_code": "GB",
+        "name": "Great Britain",
+        "flag": "🇬🇧",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/GB.gpx"
+    },
+    {
+        "id": "0230492F-DF50-4343-8266-2B1CEFFC0455",
+        "country_code": "GR",
+        "name": "Greece",
+        "flag": "🇬🇷",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/GR.gpx"
+    },
+    {
+        "id": "AE5B8C15-7420-4C9C-BBAC-13D454C4CA52",
+        "country_code": "H",
+        "name": "Hungary",
+        "flag": "🇭🇺",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/H.gpx"
+    },
+    {
+        "id": "49645308-944B-49E3-B9D6-31FF3CFC5F24",
+        "country_code": "HR",
+        "name": "Croatia",
+        "flag": "🇭🇷",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/HR.gpx"
+    },
+    {
+        "id": "B5E92823-A9BD-445F-B4D8-F2E55D3581C4",
+        "country_code": "I",
+        "name": "Italy",
+        "flag": "🇮🇹",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/I.gpx"
+    },
+    {
+        "id": "E7114C00-D8C1-4833-8080-FFF17F12737D",
+        "country_code": "LT",
+        "name": "Lithuania",
+        "flag": "🇱🇹",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/LT.gpx"
+    },
+    {
+        "id": "0248D732-2AF1-4FAD-9947-46A7FF47FBAD",
+        "country_code": "LV",
+        "name": "Latvia",
+        "flag": "🇱🇻",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/LV.gpx"
+    },
+    {
+        "id": "298C39E2-1CD4-46E8-8359-B146FBA735B9",
+        "country_code": "MNE",
+        "name": "Montenegro",
+        "flag": "🇲🇪",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/MNE.gpx"
+    },
+    {
+        "id": "48A83395-B604-473F-AB0C-05CE2695BA4C",
+        "country_code": "N",
+        "name": "Norway",
+        "flag": "🇳🇴",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/N.gpx"
+    },
+    {
+        "id": "CFD49DD1-2F46-463B-B1D9-ED6EF5390C30",
+        "country_code": "NL",
+        "name": "Netherlands",
+        "flag": "🇳🇱",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/NL.gpx"
+    },
+    {
+        "id": "7475FCFC-C027-4054-B8C7-3CF77F466B83",
+        "country_code": "P",
+        "name": "Portugal",
+        "flag": "🇵🇹",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/P.gpx"
+    },
+    {
+        "id": "B815EE60-3A81-483B-927C-388641FC1145",
+        "country_code": "PL",
+        "name": "Poland",
+        "flag": "🇵🇱",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/PL.gpx"
+    },
+    {
+        "id": "D3247CF8-163F-4BC6-AAE8-EE6B91C50A5E",
+        "country_code": "RO",
+        "name": "Romania",
+        "flag": "🇷🇴",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/RO.gpx"
+    },
+    {
+        "id": "8ECA414B-1D8B-486E-9998-72AD3B1A1C14",
+        "country_code": "S",
+        "name": "Sweden",
+        "flag": "🇸🇪",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/S.gpx"
+    },
+    {
+        "id": "5CB93A81-3338-45B3-AD20-AA31B59D3964",
+        "country_code": "SLO",
+        "name": "Slovenia",
+        "flag": "🇸🇮",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/SLO.gpx"
+    },
+    {
+        "id": "70C6E3F8-0C97-4593-B8D9-599E6A9263D6",
+        "country_code": "SRB",
+        "name": "Serbia",
+        "flag": "🇷🇸",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/SRB.gpx"
+    },
+    {
+        "id": "3ABBC0BB-C84F-4AC3-B3A0-39D386FBABDB",
+        "country_code": "TR",
+        "name": "Turkey",
+        "flag": "🇹🇷",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/TR.gpx"
+    },
+    {
+        "id": "74949068-913B-4C0E-A125-974A57E6B3F1",
+        "country_code": "UA",
+        "name": "Ukraine",
+        "flag": "🇺🇦",
+        "url": "https://transeurotrail.org/wp-content/uploads/gpxsync/UA.gpx"
+    }
+]
