@@ -72,7 +72,7 @@
 		D410C14527D16F59006AEB35 /* TrackRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackRow.swift; sourceTree = "<group>"; };
 		D410C14827D1750A006AEB35 /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
 		D410C14B27D1F970006AEB35 /* Germany.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Germany.gpx; sourceTree = "<group>"; };
-		D4AF3E3327F38FB30034479C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = Shared/MapView.swift; sourceTree = "<group>"; };
+		D4AF3E3327F38FB30034479C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		D4AF3E3627F38FF10034479C /* TrackDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailViewModel.swift; sourceTree = "<group>"; };
 		D4D999C127C8C88100E63F5B /* TransEuroTrailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransEuroTrailApp.swift; sourceTree = "<group>"; };
 		D4D999C227C8C88100E63F5B /* TracksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksView.swift; sourceTree = "<group>"; };
@@ -124,7 +124,6 @@
 		D4D999BB27C8C88100E63F5B = {
 			isa = PBXGroup;
 			children = (
-				D4AF3E3327F38FB30034479C /* MapView.swift */,
 				D4D999C027C8C88100E63F5B /* Shared */,
 				D4D999CF27C8C88200E63F5B /* macOS */,
 				D4D999D827C8C88200E63F5B /* Tests iOS */,
@@ -136,6 +135,7 @@
 		D4D999C027C8C88100E63F5B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D4AF3E3327F38FB30034479C /* MapView.swift */,
 				D4D999C127C8C88100E63F5B /* TransEuroTrailApp.swift */,
 				D410C13027CE9B5F006AEB35 /* MainView.swift */,
 				D410C13627CE9E56006AEB35 /* FeedView.swift */,
